@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="CData.DynamicsCRM">
+  <name>Dynamics CRM Data Provider 2015</name>
+  <publisher>CData Software, Inc.</publisher>
+  <publisher-url>http://www.cdata.com</publisher-url>
+  <version>15.0.5997</version>
+  <summary>15.0.5997 for Xamarin.</summary>
+  <samples>
+    <sample id="DynamicsCRM Provider Demo for iOS">
+      <name>iOS unified Samples</name>
+      <summary>iOS unified Samples</summary>
+    </sample>
+    <sample id="DynamicsCRM Provider Demo for Android">
+      <name>Android Samples</name>
+      <summary>Android Samples</summary>
+    </sample>
+  </samples>
+</component>

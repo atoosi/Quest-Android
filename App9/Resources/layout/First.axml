@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D2D2"
+    android:focusable="true"
+    android:id="@+id/mainView"
+    android:clickable="true"
+    android:weightSum="100">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="10">
+        <ImageView
+            android:src="@drawable/logo"
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="95.0dp"
+            android:layout_marginTop="32.0dp" />
+    </LinearLayout>
+    <TextView
+        android:text="Questinc Mobile App"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#1A6EA0"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="77.5dp"
+        android:id="@+id/textView1"
+        android:layout_weight="15" />
+    <TextView
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="#4A6EA9"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:id="@+id/textView2"
+        android:layout_weight="10" />
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="27.0dp"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="7.5dp"
+        android:visibility="invisible"
+        android:layout_weight="10" />
+    <EditText
+        android:id="@+id/txtUserName"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email"
+        android:background="@drawable/edit_text_style"
+        android:textColor="#000"
+        android:layout_marginTop="20.0dp"
+        android:layout_weight="5"
+        android:layout_marginBottom="7.5dp" />
+    <EditText
+        android:id="@+id/txtPass"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20.0dp"
+        android:hint="Password"
+        android:background="@drawable/edit_text_style"
+        android:textColor="#000"
+        android:layout_weight="5"
+        android:layout_marginTop="12.0dp" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button_email_style"
+        android:layout_weight="5" />
+    <CheckBox
+        android:text="Remember Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        android:textColor="#4A6EA9"
+        android:button="@drawable/checkbox_style"
+        android:layout_weight="10" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:id="@+id/llContainer"><LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:background="#E2E2E2" android:weightSum="75"><!--<TextView
+                android:text="Age"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="25"
+                android:gravity="center_horizontal"
+                android:textColor="#000"
+                android:textSize="16sp" />--><TextView android:text="Support Record Details" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="25" android:gravity="center_horizontal" android:textColor="#000" android:textSize="16sp" /></LinearLayout><View android:layout_height="2dp" android:layout_width="match_parent" android:background="#000" /><ListView android:layout_width="match_parent" android:layout_height="310.5dp" android:id="@+id/listView" android:background="#F2F2F2" android:divider="#101010" /><!--android:dividerHeight="1dp" --><Button android:id="@+id/btnStart" android:text="START" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:background="@drawable/button_email_style" /></LinearLayout></FrameLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <Button
+        p1:text="Test Connection"
+        p1:layout_width="150dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/TestButton"
+        p1:textSize="12dp"
+        p1:layout_alignParentLeft="true" />
+    <Button
+        p1:text="GetTables"
+        p1:layout_width="150dp"
+        p1:layout_height="wrap_content"
+        p1:textSize="12dp"
+        p1:layout_alignParentRight="true"
+        p1:id="@+id/GetTables" />
+    <ListView
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:id="@+id/ConnectionProperties"
+        p1:layout_below="@id/TestButton"
+        p1:footerDividersEnabled="false"
+        p1:descendantFocusability="afterDescendants" /></RelativeLayout>

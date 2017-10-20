@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Data.CData.DynamicsCRM</name>
+    </assembly>
+    <members>
+        <member name="M:RSSBus.RSBContext.GetService(System.String)">
+              RSBItem loadItem(String name);
+              void saveItem(String name, RSBItem item);
+              *
+        </member>
+        <member name="M:System.Data.CData.DynamicsCRM.DynamicsCRMConnectionStringBuilder.GetDefaultUndocumentedPropertyList">
+            <summary>
+            Returns a list of undocumented properties for all data providers.
+            </summary>
+        </member>
+        <member name="M:RSSBus.core.InternalConnection.GetTablesTable(System.String[])">
+            The second optional parameter of the GetSchema method is the restrictions that are used to limit the amount of schema information returned, 
+            and it is passed to the GetSchema method as an array of strings. The position in the array determines the values that you can pass, and 
+            this is equivalent to the restriction number. 
+            
+            Restrictions:
+            
+             Restriction Name  | Restriction Default  |  Restriction Number
+             Catalog               TABLE_CATALOG             1
+             Owner                 TABLE_SCHEMA              2
+             Table                 TABLE_NAME                3
+             TableType             TABLE_TYPE                4
+        </member>
+        <member name="P:System.Data.CData.DynamicsCRM.DynamicsCRMConnection.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.GetOperationType(RSSBus.RSBItem)">
+            Returns the type of operation being executed on the queryItem.
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.CreateResultsTable(RSSBus.core.ColumnDescriptor[])">
+            Creates the temporary results table LastResultInfo#TEMP. This method standardizes the valid columns that will be 
+            the same across all providers, but also allows extra columns to be input such as primary keys that may be 
+            different for different providers.
+            @param extraColumns: The additional columns to add.
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.CreateTempTable(System.String,RSSBus.core.ColumnDescriptor[],RSSBus.core.JavaDb,System.Boolean)">
+            	 * Creates a temporary table given the tableName and the columns to add to the new temporary table.
+            	 * @param tableName: The table to create. If the #TEMP suffix is not already appended to it, it will be added.
+            	 * @param columns: The columns to add to the table.
+                 * @param javaDb: The JavaDb used to determine the database types.
+            	 * @return: The columns created for the new table.
+            	 * @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.DropTempTable(System.String)">
+            Drops a temporary table from the database.
+            @param tableName: The table to drop from the database.
+            @return: Boolean indicating if the table was successfully dropped.
+            @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.InsertTempRow(System.String,RSSBus.core.ColumnDescriptor[],System.String[])">
+            Inserts a row into a temporary table.
+            @param tableName: The name of the table to insert a row to.
+            @param columns: The columns in the table. The must be in the same order as the row.
+            @param row: A row of data values to add to the table. These must be in the same order as the columns. 
+            @return: A boolean indicating if the insert was successful.
+            @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.GetTempTableValues(System.String,System.String,System.String,System.Boolean)">
+            Returns the values from the temporary table.
+            @param tableName
+            @param filter
+            @param selectcolumns
+            @param returnExceptions
+            @return: The values in the table.
+            @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.DoClientFiltering(RSSBus.core.j2cs.JavaArrayList{RSSBus.RSBItem},RSSBus.core.j2cs.JavaArrayList{RSSBus.RSBItem},System.String,System.String,RSSBus.core.JavaDb)">
+            Handles performing client side filtering on a given table based on the original response values and a given table name.
+            @param tableName
+            @param columnList
+            @param originalResults
+            @return: The response values after being filtered locally.
+            @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.GetValuesFromTempDBOrAggregate(System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            Gets the values from a temporary table or alternatively an aggregate. For use with columns that can accept either a Temporary table name or an XML/JSON aggregate.
+            @param data: The data passed in by the user to the column. This should be a temporary table name or an XML/JSON aggregate.
+            @param columnName: The name of the column the user is using. For instance, the ItemAggregate column on the Invoice table in QuickBooks.
+            @param childTableName: The name of the child the column contains data for. For instance, this would be InvoiceLineItems on the ItemAggregate column for QuickBooks.
+            @param supportsXML: A boolean indicating if the provider supports XML for this column.
+            @param supportsJSON: A boolean indicating if the provider supports JSON for this column. 
+            on create table. 
+            @return: A collection of RSBItems representing the flattened data from either the XML, JSON, or temporary table.
+            @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.EscapeTableName(System.String)">
+            Escapes the table name with brackets [] and appends the #TEMP suffix. 
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.ExecuteTempDBQuery(System.String,System.Boolean,System.Boolean,RSSBus.RSBItem)">
+            	 * Executes a query against a temporary table.
+            	 * @param query: The query to execute.
+            	 * @param reportExceptions: A boolean indicating if exceptions should be thrown or silently handled. In Derby, there is no IF NOT EXISTS statement 
+            	 * on create table.
+                 * @param isSelect:
+            	 * @return: The result set from the query. Will be empty unless a select query was executed.
+            	 * @throws RSBException
+        </member>
+        <member name="M:RSSBus.core.TempDBManager.AddParameters(RSSBus.RSBItem,System.String[],RSSBus.core.ColumnDescriptor[])">
+            Adds a list of parameters to the RSBItem.
+            @param item: The item to add parameters to.
+            @param row: The row of data to use when setting the parameters.
+        </member>
+        <member name="T:RSSBus.core.SqlCacheStatement">
+            Syntax:
+                    Cache [Table] [RENAME TO NEW_TABLE_NAME] [AUTOCOMMIT] [WITH TRUNCATE] [SCHEMA ONLY] [DROP EXISTING] [ALTER SCHEMA] QUERY
+        </member>
+        <member name="T:RSSBus.core.SqlCheckCacheStatement">
+            Syntax:
+                    CHECKCACHE [Table] [WITH REPAIR] START [Start Date] END [End Date]
+                    or
+                    CHECKCACHE [CacheTableName] AGAINST [Table] [WITH REPAIR] START [Start Date] END [End Date]
+        </member>
+        <member name="T:RSSBus.core.SqlExecStatement">
+            Syntax:
+            EXECUTE my_proc @second = 2, @first = 1, @third = 3;
+            EXEC my_proc @second = 2, @first = 1, @third = 3;
+            EXECUTE my_proc second = @p1, first = @p2, third = @p3;
+        </member>
+        <member name="T:RSSBus.core.SqlGetDeletedStatement">
+            Syntax:
+                    GETDELETED FROM TABLENAME WHERE PARAM= ? [...]
+        </member>
+        <member name="T:RSSBus.core.SqlReplicateStatement">
+             Syntax:
+                     REPLICATE [Table] [RENAME TO NEW_TABLE_NAME] [AUTOCOMMIT] [SCHEMA ONLY] [EXCLUDE] QUERY
+            
+        </member>
+        <member name="F:RSSBus.core.SqlUpdateStatement.Query">
+            UPDATE-SELECT: UPDATE TABLE (Name,City,Country) SELECT (N,C,Country) FROM TABLE#TMP
+        </member>
+        <member name="T:RSSBus.core.AccessDbFactory">
+            Example:     
+            "jdbc:odbc:Driver= {Microsoft Access Driver (*.mdb, *.accdb)};DBQ=Northwind.accdb;";
+            "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\myFolder\Northwind.accdb;";
+        </member>
+        <member name="F:RSSBus.core.AccessDbFactory.driver">
+            Note:
+              Needs the ODBC Access Driver. Going to ODBC Manager GUI in Administrative Tool 
+              under the control panel to check if the driver is installed.
+            
+              Microsoft does not support the side-by-side installation of the 32 and 64-bit versions 
+              of Microsoft Office as well as the ODBC Access Driver. If you have 32-bit office installed,
+              your Java application has to be 32-bit.
+            
+             Data Types:
+              http://msdn.microsoft.com/en-us/library/windows/desktop/ms714540(v=vs.85).aspx
+        </member>
+        <member name="M:RSSBus.core.AccessDbFactory.CreateDbBigIntColumn">
+            Access Data Types
+            LONG - 4 bytes (-2,147,483,648 to 2,147,483,647)
+            DOUBLE - 8 bytes
+        </member>
+        <member name="M:RSSBus.Formatters.charindex.Info">
+            charindex ( expressionToFind ,expressionToSearch [ , start_location ] )
+        </member>
+        <member name="M:RSSBus.Formatters.indexof.Info">
+            Same as CHARINDEX but order of 'expressionToSearch' and 'expressionToFind' are flipped *
+        </member>
+        <member name="T:RSSBus.Formatters.soundex">
+            SOUNDEX converts an alphanumeric string to a four-character code to find similar-sounding words or names.
+            The first character of the code is the first character of character_expression and the second through
+            fourth characters of the code are numbers that represent the letters in the expression. Vowels in
+            character_expression are ignored unless they are the first letter of the string. Zeroes are added at the end
+            if necessary to produce a four-character code.
+        </member>
+        <member name="T:RSSBus.core.RSBIntContext">
+             The context basically maintains 3 stacks and a hash table of Items.
+              Stacks:
+              (a) CallBack stack: The top callback on the stack is executed on a call to execScope.
+              (b) InputItem stack: Attributes are read from the top item on this stack. Call to getAttr()
+                  translates to get the top item on the input stack and read the attribute from it.
+              (c) OuputItem stack: Attributes are written to the top item on this stack.
+            
+              All items created by the users are lowercase.
+            
+        </member>
+        <member name="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter">
+            <summary>
+            Represents a set of data commands and a database connection that are used 
+            to fill the <see cref="T:System.Data.DataSet">DataSet</see> and update the data source.
+            </summary>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter">SqliteDataAdapter</see> class.
+            </summary>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.#ctor(System.Data.Common.DbCommand)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter">SqliteDataAdapter</see> class 
+            with the specified SqliteCommand as the SelectCommand property.
+            </summary>
+            <param name="selectCommand"></param>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.#ctor(System.String,Community.CsharpSqlite.SQLiteClient.SqliteConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter">SqliteDataAdapter</see> class 
+            with a SelectCommand and a SqliteConnection object.
+            </summary>
+            <param name="selectCommandText"></param>
+            <param name="connection"></param>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter">SqliteDataAdapter</see> class 
+            with a SelectCommand and a connection string.
+            </summary>
+            <param name="selectCommandText"></param>
+            <param name="connectionString"></param>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.CreateRowUpdatedEvent(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Data.Common.RowUpdatedEventArgs">RowUpdatedEventArgs</see> class.
+            </summary>
+            <param name="dataRow">The DataRow used to update the data source.</param>
+            <param name="command">The IDbCommand executed during the Update.</param>
+            <param name="statementType">Whether the command is an UPDATE, INSERT, DELETE, or SELECT statement.</param>
+            <param name="tableMapping">A DataTableMapping object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.CreateRowUpdatingEvent(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)">
+            <summary>
+            
+            </summary>
+            <param name="dataRow">The DataRow used to update the data source.</param>
+            <param name="command">The IDbCommand executed during the Update.</param>
+            <param name="statementType">Whether the command is an UPDATE, INSERT, DELETE, or SELECT statement.</param>
+            <param name="tableMapping">A DataTableMapping object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.OnRowUpdating(System.Data.Common.RowUpdatingEventArgs)">
+            <summary>
+            Raises the RowUpdated event of a Sqlite data provider.
+            </summary>
+            <param name="args">A RowUpdatedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.OnRowUpdated(System.Data.Common.RowUpdatedEventArgs)">
+            <summary>
+            Raises the RowUpdating event of Sqlite data provider.
+            </summary>
+            <param name="args">An RowUpdatingEventArgs that contains the event data.</param>
+        </member>
+        <member name="E:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.RowUpdated">
+            <summary>
+            Occurs during <see cref="M:System.Data.Common.DbDataAdapter.Update(System.Data.DataRow[])">Update</see> after a 
+            command is executed against the data source. The attempt to update 
+            is made, so the event fires.
+            </summary>
+        </member>
+        <member name="E:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.RowUpdating">
+            <summary>
+            Occurs during <see cref="M:System.Data.Common.DbDataAdapter.Update(System.Data.DataRow[])">Update</see> before a 
+            command is executed against the data source. The attempt to update 
+            is made, so the event fires.
+            </summary>
+        </member>
+        <member name="T:Community.CsharpSqlite.SQLiteClient.SqliteError">
+            <summary>
+            Represents the return values for sqlite_exec() and sqlite_step()
+            </summary>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.OK">
+            <value>Successful result</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.ERROR">
+            <value>SQL error or missing database</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.INTERNAL">
+            <value>An internal logic error in SQLite</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.PERM">
+            <value>Access permission denied</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.ABORT">
+            <value>Callback routine requested an abort</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.BUSY">
+            <value>The database file is locked</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.LOCKED">
+            <value>A table in the database is locked</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.NOMEM">
+            <value>A malloc() failed</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.READONLY">
+            <value>Attempt to write a readonly database</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.INTERRUPT">
+            <value>Operation terminated by public const int interrupt()</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.IOERR">
+            <value>Some kind of disk I/O error occurred</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.CORRUPT">
+            <value>The database disk image is malformed</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.NOTFOUND">
+            <value>(Internal Only) Table or record not found</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.FULL">
+            <value>Insertion failed because database is full</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.CANTOPEN">
+            <value>Unable to open the database file</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.PROTOCOL">
+            <value>Database lock protocol error</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.EMPTY">
+            <value>(Internal Only) Database table is empty</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.SCHEMA">
+            <value>The database schema changed</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.TOOBIG">
+            <value>Too much data for one row of a table</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.CONSTRAINT">
+            <value>Abort due to contraint violation</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.MISMATCH">
+            <value>Data type mismatch</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.MISUSE">
+            <value>Library used incorrectly</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.NOLFS">
+            <value>Uses OS features not supported on host</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.AUTH">
+            <value>Authorization denied</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.FORMAT">
+            <value>Auxiliary database format error</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.RANGE">
+            <value>2nd parameter to sqlite_bind out of range</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.NOTADB">
+            <value>File opened that is not a database file</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.ROW">
+            <value>sqlite_step() has another row ready</value>
+        </member>
+        <member name="F:Community.CsharpSqlite.SQLiteClient.SqliteError.DONE">
+            <value>sqlite_step() has finished executing</value>
+        </member>
+        <member name="T:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatedEventArgs">
+            <summary>
+            Provides data for the <see cref="E:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.RowUpdated"/> event.
+            </summary>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatedEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatedEventArgs"/> class.
+            </summary>
+        </member>
+        <member name="T:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatedEventHandler">
+            <summary>
+            Represents the method that will handle the <see cref="E:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.RowUpdated"/> event 
+            of a <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter"/>.
+            </summary>
+        </member>
+        <member name="T:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatingEventArgs">
+            <summary>
+            Provides data for the <see cref="E:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.RowUpdating"/> event. 
+            </summary>
+        </member>
+        <member name="M:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatingEventArgs"/> class.
+            </summary>
+        </member>
+        <member name="T:Community.CsharpSqlite.SQLiteClient.SqliteRowUpdatingEventHandler">
+            <summary>
+            Represents the method that will handle the <see cref="E:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter.RowUpdating"/> event 
+            of a <see cref="T:Community.CsharpSqlite.SQLiteClient.SqliteDataAdapter"/>.
+            </summary>
+        </member>
+        <member name="F:Community.CsharpSqlite.Sqlite3.etRADIX">
+            * The rest are extensions, not normally found in printf() */
+        </member>
+        <member name="F:Community.CsharpSqlite.Sqlite3.SQLITE_OK">
+            * beginning-of-error-codes */
+        </member>
+        <member name="F:Community.CsharpSqlite.Sqlite3.SQLITE_CONFIG_SINGLETHREAD">
+            * previously SQLITE_CONFIG_CHUNKALLOC 12 which is now unused. */ 
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.codec_free(System.Byte[]@,System.Int32)">
+            Free and wipe memory
+            If ptr is not null memory will be freed.
+            If sz is greater than zero, the memory will be overwritten with zero before it is freed
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.cipher_ctx_set_pass(Community.CsharpSqlite.Sqlite3.cipher_ctx,System.String,System.Int32)">
+             Set the raw password / key data for a cipher context
+            
+             returns SQLITE_OK if assignment was successfull
+             returns SQLITE_NOMEM if an error occured allocating memory
+             returns SQLITE_ERROR if the key couldn't be set because the pass was null or size was zero
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.cipher_ctx_init(Community.CsharpSqlite.Sqlite3.cipher_ctx@)">
+             Initialize a new cipher_ctx struct. This function will allocate memory
+             for the cipher context and for the key
+            
+             returns SQLITE_OK if initialization was successful
+             returns SQLITE_NOMEM if an error occured allocating memory
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.cipher_ctx_free(Community.CsharpSqlite.Sqlite3.cipher_ctx@)">
+            free and wipe memory associated with a cipher_ctx
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.cipher_ctx_copy(Community.CsharpSqlite.Sqlite3.cipher_ctx,Community.CsharpSqlite.Sqlite3.cipher_ctx)">
+             Copy one cipher_ctx to another. For instance, assuming that read_ctx is a
+             fully initialized context, you could copy it to write_ctx and all yet data
+             and pass information across
+            
+             returns SQLITE_OK if initialization was successful
+             returns SQLITE_NOMEM if an error occured allocating memory
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.cipher_ctx_cmp(Community.CsharpSqlite.Sqlite3.cipher_ctx,Community.CsharpSqlite.Sqlite3.cipher_ctx)">
+             Compare one cipher_ctx to another.
+            
+             returns 0 if all the parameters (except the derived key data) are the same
+             returns 1 otherwise
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.codec_ctx_free(Community.CsharpSqlite.Sqlite3.codec_ctx@)">
+            Free and wipe memory associated with a cipher_ctx, including the allocated
+            read_ctx and write_ctx.
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.codec_key_derive(Community.CsharpSqlite.Sqlite3.codec_ctx,Community.CsharpSqlite.Sqlite3.cipher_ctx)">
+             Derive an encryption key for a cipher contex key based on the raw password.
+            
+             If the raw key data is formated as x'hex' and there are exactly enough hex chars to fill
+             the key space (i.e 64 hex chars for a 256 bit key) then the key data will be used directly.
+            
+             Otherwise, a key data will be derived using PBKDF2
+            
+             returns SQLITE_OK if initialization was successful
+             returns SQLITE_NOMEM if the key could't be derived (for instance if pass is null or pass_sz is 0)
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.codec_set_cipher_name(Community.CsharpSqlite.Sqlite3.sqlite3,System.Int32,System.String,System.Int32)">
+            
+             when for_ctx == 0 then it will change for read
+             when for_ctx == 1 then it will change for write
+             when for_ctx == 2 then it will change for both
+        </member>
+        <member name="M:Community.CsharpSqlite.Sqlite3.sqlite3GetToken(System.String,System.Int32,System.Int32@)">
+            * x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 xA xB xC xD xE xF */
+        </member>
+        <member name="T:Community.CsharpSqlite.Sqlite3.LockingStrategy">
+            <summary>
+            Basic locking strategy for Console/Winform applications
+            </summary>
+        </member>
+        <member name="T:Community.CsharpSqlite.Sqlite3.MediumTrustLockingStrategy">
+            <summary>
+            Locking strategy for Medium Trust. It uses the same trick used in the native code for WIN_CE
+            which doesn't support LockFileEx as well.
+            </summary>
+        </member>
+        <member name="T:Community.CsharpSqlite.Sqlite3.sqlite3_module">
+            * The methods above are in version 1 of the sqlite_module object. Those 
+        </member>
+        <member name="T:RSSBus.core.ExtendedDateTime">
+            http://www.w3.org/Protocols/rfc822/#z28
+            This class parses a wider range of date formats commonly found in rss feeds
+            many of which the default .NET class cannot handle
+        </member>
+        <member name="F:RSSBus.oputils.sqlite.SqliteDatabase._conn">
+            Creates a sqlite database given the database file name. Using ":memory:"
+              to open an in-memory database. Specifying an empty filename can create and
+              open a temp database.
+            
+              The in-memory and temp databases are disposed as soon as the connection
+              is closed.
+        </member>
+        <member name="M:RSSBus.Formatters.flattenxml.Info">
+            FLATTENXML takes an xml input and an xpath and flattens out the response into a comma separated list. The separator can be changed by inputting a third parameter.
+        </member>
+        <member name="T:RSSBus.core.RSBEngine">
+            Dont confuse this instance with the internal version of the engine,
+            this is NOT meant for caching .. this is more like a context
+            maybe engine is not the best name here
+        </member>
+    </members>
+</doc>

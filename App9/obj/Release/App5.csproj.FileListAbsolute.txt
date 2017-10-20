@@ -1,0 +1,382 @@
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\App5.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\App5.pdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Quest.App5.apk
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Quest.App5-Signed.apk
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Newtonsoft.Json.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.CurrentActivity.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Data.CData.DynamicsCRM.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.Android.Support.Design.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.GooglePlayServices.Base.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.GooglePlayServices.Location.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Newtonsoft.Json.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.CurrentActivity.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.pdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.pdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.pdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.Abstractions.pdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.Abstractions.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\App5.csprojResolveAssemblyReference.cache
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\App5.dll
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\App5.pdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\bin\Quest.App5.apk
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\layout\first.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\layout\second.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\layout\third.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\layout\fourth.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\icon.png
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\button_email_style.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\buttonsignupstyle.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\checkbox_style.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\edit_text_style.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\logo_kaiyuan.jpg
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\drawable\logo_quest.png
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\values\colors.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\values\strings.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\values\styles.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\res\values-v21\styles.xml
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\R.cs.flag
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\uploadflags.txt
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\App5.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Java.Interop.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Mono.Android.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Mono.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\Mono.Data.Tds.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\mscorlib.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.ComponentModel.Composition.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Core.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Data.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Net.Http.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Numerics.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Transactions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Xml.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\bin\Release\System.Xml.Linq.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\App5.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Java.Interop.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Mono.Android.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Mono.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\mscorlib.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Core.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Data.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Numerics.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Transactions.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\atoosi\Desktop\temp\App5\App5\obj\Release\App5.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\App5.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\App5.pdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Quest.App5.apk
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Quest.App5-Signed.apk
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Newtonsoft.Json.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.CurrentActivity.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Data.CData.DynamicsCRM.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.Design.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Base.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Location.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\ZXing.Net.Mobile.Core.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\zxing.portable.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\ZXingNetMobile.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Newtonsoft.Json.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.CurrentActivity.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.pdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.pdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.pdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.pdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.dll
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.pdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\bin\Quest.App5.apk
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\first.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\second.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\third.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\fourth.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\fifth.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\icon.png
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\button_email_style.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\buttonsignupstyle.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\checkbox_style.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\edit_text_style.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\logo_kaiyuan.jpg
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\logo_quest.png
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values\colors.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values\strings.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values\styles.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values-v21\styles.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\markerdest.png
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\markersource.png
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\R.cs.flag
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\uploadflags.txt
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\App5.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.csprojResolveAssemblyReference.cache
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Java.Interop.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Mono.Android.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Mono.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\Mono.Data.Tds.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\mscorlib.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.ComponentModel.Composition.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Core.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Data.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Net.Http.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Numerics.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Transactions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Xml.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Xml.Linq.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\App5.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Java.Interop.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Mono.Android.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Mono.CSharp.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\mscorlib.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Core.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Data.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Numerics.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Transactions.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\second_row.xml
+C:\Users\atoosi\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\App5.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\App5.pdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Quest.App5.apk
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Quest.App5-Signed.apk
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Newtonsoft.Json.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.CurrentActivity.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Data.CData.DynamicsCRM.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.Design.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Base.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Location.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\ZXing.Net.Mobile.Core.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\zxing.portable.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\ZXingNetMobile.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Newtonsoft.Json.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.CurrentActivity.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.pdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.pdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.pdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.pdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\System.Data.CData.DynamicsCRM.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.csprojResolveAssemblyReference.cache
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.dll
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.pdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\bin\Quest.App5.apk
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\first.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\second.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\third.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\fourth.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\fifth.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\layout\second_row.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\icon.png
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\button_email_style.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\buttonsignupstyle.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\checkbox_style.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\edit_text_style.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\logo_kaiyuan.jpg
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\logo_quest.png
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values\colors.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values\strings.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values\styles.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\values-v21\styles.xml
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\markerdest.png
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\res\drawable\markersource.png
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\R.cs.flag
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\uploadflags.txt
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Java.Interop.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Mono.Android.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Mono.CSharp.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\mscorlib.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Core.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Data.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Numerics.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Transactions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\bin\Release\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\temp\Quest Apps\App5\App5\obj\Release\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\App5.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\App5.pdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Quest.App5.apk
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Quest.App5-Signed.apk
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Newtonsoft.Json.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.CurrentActivity.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Data.CData.DynamicsCRM.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.Android.Support.Design.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.Android.Support.v4.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.GooglePlayServices.Base.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.GooglePlayServices.Location.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\ZXing.Net.Mobile.Core.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\zxing.portable.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\ZXingNetMobile.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Newtonsoft.Json.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.CurrentActivity.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.pdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.pdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.pdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.Abstractions.pdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.Abstractions.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Data.CData.DynamicsCRM.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\App5.dll
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\App5.pdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\bin\Quest.App5.apk
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\layout\first.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\layout\second.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\layout\third.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\layout\fourth.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\layout\fifth.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\layout\second_row.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\icon.png
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\button_email_style.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\buttonsignupstyle.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\checkbox_style.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\edit_text_style.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\logo_kaiyuan.jpg
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\logo_quest.png
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\values\colors.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\values\strings.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\values\styles.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\values-v21\styles.xml
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\markerdest.png
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\res\drawable\markersource.png
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\R.cs.flag
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\uploadflags.txt
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Java.Interop.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Mono.Android.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Mono.CSharp.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\Mono.Data.Tds.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\mscorlib.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.ComponentModel.Composition.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Core.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Data.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Net.Http.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Numerics.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Transactions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Xml.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\System.Xml.Linq.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Java.Interop.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Mono.Android.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Mono.CSharp.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\mscorlib.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Plugin.Permissions.Abstractions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Core.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Data.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Numerics.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Transactions.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Xml.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\obj\Release\App5.dll.mdb
+C:\Users\atoosi.QUESTINC\Desktop\App5\App5\bin\Release\App5.dll.mdb

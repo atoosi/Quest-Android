@@ -1,0 +1,3 @@
+C:\Users\atoosi.QUESTINC\Desktop\App6\App6\obj\Release\App6.csprojResolveAssemblyReference.cache
+C:\Users\atoosi.QUESTINC\Desktop\App6\App6\obj\Release\App5.dll
+C:\Users\atoosi.QUESTINC\Desktop\App6\App6\obj\Release\App5.pdb

@@ -1,0 +1,15 @@
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30dp" android:weightSum="100" android:paddingLeft="5dp" android:paddingTop="2dp" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:id="@+id/txtId" android:text="Id" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="100" android:gravity="center" android:textColor="#666333" /><TextView android:id="@+id/txtName" android:text="Name" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="0" android:gravity="center" android:textColor="#666333" /><!--<TextView
+        android:id="@+id/txtAge"
+        android:text="Age"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:gravity="center"
+        android:textColor="#333333" />--><!--  <TextView
+        android:id="@+id/txtGender"
+        android:text="Check out"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="33"
+        android:gravity="center"
+        android:textColor="#333333" />--></LinearLayout>
